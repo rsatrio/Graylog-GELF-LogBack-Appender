@@ -28,7 +28,7 @@ A simple example of Logback's Appender for Graylog Extended Log Format (GELF). T
 ## Configuration
 - Please check the logback.xml example in the src/main/resources
 - There are 4 configuration for the appender:
-1. graylog_http_url, this is the URL of the Graylog's GELF Http Interface
+1. graylog_http_url, this is the URL of the Graylog's GELF Http Interface. This configuration is mandatory and cannot be NULL.
 2. hostname, this is the hostname to be submitted to Graylog for every log. Default is localhost
 3. gelf_version, the GELF version, default is 1.1
 4. verify_ssl, to verify_ssl/not when using Https. Default is true.
