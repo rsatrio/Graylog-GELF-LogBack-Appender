@@ -1,4 +1,4 @@
-# Dropwizard Example
+# Logback Custom Appender for Graylog's GELF
 
 A simple example of Logback's Appender for Graylog Extended Log Format (GELF). The interface used in Graylog for input is Http. This project is tested with Java 8.
 
